@@ -84,9 +84,6 @@ const App = ({ isServerInfo }) => {
                 <Tabs.TabPane tab={<span>Polygon</span>} key="3">
                   <DEX chain="polygon" />
                 </Tabs.TabPane>
-                <Tabs.TabPane tab={<span>Fantom</span>} key="4">
-                  <DEX chain="fantom" />
-                </Tabs.TabPane>
               </Tabs>
             </Route>
             <Route path="/erc20balance">
