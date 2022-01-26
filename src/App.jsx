@@ -63,6 +63,7 @@ const App = ({ isServerInfo }) => {
       <Router>
         <Header style={styles.header}>
           <Logo />
+          <h1>PizzaSwap</h1>
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />

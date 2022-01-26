@@ -19,10 +19,10 @@ function MenuItems() {
       defaultSelectedKeys={[pathname]}
     >
       <Menu.Item key="/dex">
-        <NavLink to="/dex">🏦 Dex</NavLink>
+        <NavLink to="/dex">🏦 Swap</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance">💰 Balances</NavLink>
+        <NavLink to="/erc20balance">💰Token Balances</NavLink>
       </Menu.Item>    
     </Menu>
   );
